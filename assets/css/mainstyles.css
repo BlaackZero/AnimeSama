@@ -1727,8 +1727,7 @@ body {
   }
 }
 
-.detalles {
-  text-align: center;
-  justify-content: center;
-  padding-top: 1rem;
+.item:hover {
+  transform: scale(1.03);
+  border: 0;
 }
