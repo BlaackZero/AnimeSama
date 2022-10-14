@@ -1592,12 +1592,12 @@ Profile Style
     transform: translate(-23px, -23px);
     width: 46px;
     height: 46px;
-    background-color: #fff;
+    background-color: #ff6c38;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
     line-height: 46px;
-    color: #ff6c38;
+    color: #fff;
 }
 
 .clips .item h4 {
