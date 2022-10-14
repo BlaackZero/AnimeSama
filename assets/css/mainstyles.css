@@ -144,8 +144,10 @@ p {
 }
 
 .templatemo-item {
-	max-width: 80px; 
+	max-width: 95px; 
 	border-radius: 23px;
+  height: 115px;
+  max-height: 115px;
 }
 
 .main-button a {
