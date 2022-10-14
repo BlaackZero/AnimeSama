@@ -1567,11 +1567,6 @@ Profile Style
   margin-bottom: 0;
 }
 
-.clips {
-  margin-top: 30px;
-  border-top: 2px solid #27292a;
-}
-
 .clips .heading-section {
   margin-top: 30px;
 }
@@ -1591,7 +1586,7 @@ Profile Style
 .clips .item .thumb a {
   position: absolute;
     left: 50%;
-    top: 50%;
+    top: 100%;
     transform: translate(-23px, -23px);
     width: 46px;
     height: 46px;
@@ -1600,7 +1595,7 @@ Profile Style
     display: inline-block;
     text-align: center;
     line-height: 46px;
-    color: #ec6090;
+    color: #ff6c38;
 }
 
 .clips .item h4 {
