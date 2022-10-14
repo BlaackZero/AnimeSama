@@ -129,7 +129,7 @@ body .page-content {
 
 p {
   font-size: 15px;
-  color: #666;
+  color: #949494;
   line-height: 30px;
   margin-bottom: 0px;
 }
@@ -766,7 +766,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/banner-bg.webp);
   background-position: center center;
   background-size: cover;
   min-height: 380px;
@@ -831,7 +831,7 @@ Most Popular Style
 }
 
 .most-popular .item span {
-  color: #666;
+  color: #949494;
   display: block;
   margin-top: 7px;
   font-weight: 400;
@@ -918,7 +918,7 @@ Gaming Library Style
 }
 
 .gaming-library .item ul li span {
-  color: #666;
+  color: #949494;
   font-size: 14px;
 }
 
@@ -1550,7 +1550,7 @@ Profile Style
 .main-profile ul li {
   width: 100%;
   font-size: 14px;
-  color: #666;
+  color: #fff;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #666;
@@ -1559,7 +1559,7 @@ Profile Style
 .main-profile ul li span {
   float: right;
   font-weight: 500;
-  color: #ec6090;
+  color: #ff6c38;
 }
 
 .main-profile ul li:last-child {
