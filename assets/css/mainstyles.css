@@ -108,6 +108,10 @@ img {
   overflow: hidden;
 }
 
+.carru {
+  object-fit: cover;
+}
+
 /* 
 ---------------------------------------------
 Global Styles
