@@ -1786,3 +1786,13 @@ video {
   font-weight: bold;
   color: white;
 }
+
+.iconos {
+  font-size: 5rem;
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  right: 45%;
+  z-index: 2;
+}
