@@ -240,3 +240,12 @@
 
 
 })(window.jQuery);
+
+$('#audio-control').click(function(){
+    if( $("#myVideo").prop('muted') ) {
+          $("#myVideo").prop('muted', false);
+      // or toggle class, style it with a volume icon sprite, change background-position
+    } else {
+      $("#myVideo").prop('muted', true);
+    }
+});

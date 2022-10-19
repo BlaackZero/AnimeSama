@@ -1800,3 +1800,9 @@ video {
 .iconos:hover {
   color: #ff6c38;
 }
+
+.controlmute {
+  font-size: 1rem;
+  color: white;
+  opacity: 0.1;
+}
