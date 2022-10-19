@@ -1796,3 +1796,7 @@ video {
   right: 45%;
   z-index: 2;
 }
+
+.iconos:hover {
+  color: #ff6c38;
+}
