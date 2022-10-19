@@ -1777,7 +1777,6 @@ video {
 
 .encima {
   position: absolute;
-  top: 45%;
   bottom: 40%;
   left: 40%;
   right: 40%;
@@ -1785,6 +1784,7 @@ video {
   font-size: 40px;
   font-weight: bold;
   color: white;
+  justify-content: center;
 }
 
 .iconos {
@@ -1805,4 +1805,22 @@ video {
   font-size: 1rem;
   color: white;
   opacity: 0.1;
+}
+
+@media (max-width: 992px) {
+  video {
+    display: none;
+  }
+  
+  .encima {
+    display: none;
+  }
+
+  .overlay {
+    display:  none;
+  }
+
+  .iconos {
+    display: none;
+  }
 }
