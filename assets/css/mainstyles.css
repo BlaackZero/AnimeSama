@@ -622,6 +622,23 @@ Header Style
   color: #fff;
 }
 
+.main_slogan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 92.5%;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 48px;
+  max-width: 720px;
+  text-align: center;
+  margin: auto;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 10px;
