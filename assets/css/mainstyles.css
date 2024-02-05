@@ -124,10 +124,8 @@ body {
 }
 
 body .page-content {
-  margin-top: 110px;
-  background-color: #27292a;
   padding: 60px;
-  border-radius: 23px;
+  border-radius: 6px;
 }
 
 p {
@@ -148,8 +146,8 @@ p {
 }
 
 .templatemo-item {
-	max-width: 95px; 
-	border-radius: 23px;
+	max-width: 95px;
+	border-radius: 6px;
   height: 115px;
   max-height: 115px;
 }
@@ -212,8 +210,9 @@ section {
 }
 
 .heading-section h4 {
-  color: #ff6c38;
-  font-size: 34px;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 30px;
 }
@@ -381,7 +380,7 @@ Header Style
 .header-area .main-nav #search input {
   background-color: #27292a;
   height: 46px;
-  border-radius: 23px;
+  border-radius: 6px;
   border: none;
   color: #666;
   font-size: 14px;
@@ -459,9 +458,12 @@ Header Style
 }
 
 .header-area .main-nav .nav li:last-child a {
-  background-color: #27292a;
-  padding: 8px 10px 8px 20px;
-  border-radius: 23px;
+  background-color: #ff6c38;
+  padding: 8px 15px;
+  border-radius: 6px;
+  color: white;
+  position: relative;
+  top: 6px;
 }
 
 .header-area .main-nav .nav li:last-child a img {
@@ -620,6 +622,23 @@ Header Style
   color: #fff;
 }
 
+.main_slogan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 92.5%;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 48px;
+  max-width: 720px;
+  text-align: center;
+  margin: auto;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 10px;
@@ -775,7 +794,7 @@ Banner Style
   background-position: center center;
   background-size: cover;
   min-height: 380px;
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 80px 60px;
 }
 
@@ -806,15 +825,18 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
-  border-radius: 23px;
+  background-color: #27292a;
+  border-radius: 6px;
 }
 
 .most-popular .item {
-  background-color: #27292a;
-  padding: 30px 15px;
-  border-radius: 23px;
+  background-color: #1f2122;
+  border-radius: 6px;
   margin-bottom: 30px;
+}
+
+.most-popular .item .description {
+  padding: 0 15px 15px 15px;
 }
 
 .most-popular .item .item {
@@ -825,7 +847,8 @@ Most Popular Style
 }
 
 .most-popular .item img {
-  border-radius: 23px;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 .most-popular .item h4 {
@@ -875,8 +898,8 @@ Gaming Library Style
 .gaming-library {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
-  border-radius: 23px;
+  background-color: #27292a;
+  border-radius: 6px;
 }
 
 .gaming-library .item {
@@ -961,8 +984,8 @@ Featured Games Style
 */
 
 .featured-games {
-  border-radius: 23px;
-  background-color: #1f2122;
+  border-radius: 6px;
+  background-color: #27292a;
   padding: 30px;
 }
 
@@ -998,7 +1021,7 @@ Featured Games Style
 }
 
 .featured-games .item img {
-  border-radius: 23px;
+  border-radius: 6px;
 }
 
 .featured-games .item h4 {
@@ -1065,8 +1088,8 @@ Featured Games Style
 }
 
 .top-downloaded {
-  border-radius: 23px;
-  background-color: #1f2122;
+  border-radius: 6px;
+  background-color: #27292a;
   padding: 30px;
   max-height: 567px;
   min-height: 567px;
@@ -1147,7 +1170,7 @@ Start Stream Style
 .start-stream .item {
   padding: 30px;
   border: 1px solid #444;
-  border-radius: 23px;
+  border-radius: 6px;
 }
 
 .start-stream .item h4 {
@@ -1170,7 +1193,7 @@ Live Stream Style
 
 .live-stream {
   margin-top: 60px;
-  border-radius: 23px;
+  border-radius: 6px;
   background-color: #1f2122;
   padding: 30px;
 }
@@ -1186,7 +1209,7 @@ Live Stream Style
 }
 
 .live-stream .thumb img {
-  border-radius: 23px; 
+  border-radius: 28x; 
 }
 
 .live-stream .thumb:hover .hover-effect {
@@ -1204,7 +1227,7 @@ Live Stream Style
   position: absolute;
   background-color: rgba(236, 96, 144, 0.9);
   padding: 5px 10px;
-  border-radius: 23px;
+  border-radius: 6px;
   color: #fff;
   font-size: 14px;
   right: 15px;
@@ -1226,7 +1249,7 @@ Live Stream Style
 .live-stream .hover-effect ul li a {
   background-color: rgba(236, 96, 144, 0.9);
   padding: 5px 10px;
-  border-radius: 23px;
+  border-radius: 6px;
   color: #fff;
   font-size: 14px;
 }
@@ -1275,7 +1298,7 @@ Featured Banner Style
   position: relative;
   max-height: 305px;
   overflow: hidden;
-  border-radius: 23px;;
+  border-radius: 28x;;
 }
 
 .feature-banner .thumb a {
@@ -1307,14 +1330,14 @@ Game Details Style
 }
 
 .game-details .content {
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px;
   background-color: #1f2122;
 }
 
 .game-details .content .left-info {
   background-color: #27292a;
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -1355,7 +1378,7 @@ Game Details Style
 
 .game-details .content .right-info {
   background-color: #27292a;
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -1397,7 +1420,7 @@ Other Related Style
 */
 
 .other-games {
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px 30px 0px 30px;
   background-color: #1f2122;
   margin-top: 60px;
@@ -1455,7 +1478,7 @@ Top Streamers Style
 */
 
 .top-streamers {
-  border-radius: 23px;
+  border-radius: 6px;
   background-color: #1f2122;
   padding: 30px;
   max-height: 567px;
@@ -1520,7 +1543,7 @@ Profile Style
 */
 
 .main-profile {
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px;
   background-color: #1f2122;
 }
@@ -1547,7 +1570,7 @@ Profile Style
 }
 
 .main-profile ul {
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px;
   background-color: #27292a;
 }
@@ -1573,12 +1596,8 @@ Profile Style
   margin-bottom: 0;
 }
 
-.clips .heading-section {
-  margin-top: 30px;
-}
-
 .clips .item  {
-  border-radius: 23px;
+  border-radius: 6px;
   padding: 30px 15px;
   background-color: #27292a;
   margin-bottom: 30px;
@@ -1587,6 +1606,10 @@ Profile Style
 .clips .item .thumb {
   position: relative;
   margin-bottom: 15px;
+}
+
+.clips .item .thumb img {
+  opacity: 0.9;
 }
 
 .clips .item .thumb a {
@@ -1635,9 +1658,6 @@ body {
 }
 
 @media (max-width: 767px) {
-  body .page-content {
-    padding: 0px 30px;
-  }
   .main-banner {
     text-align: center;
   }
